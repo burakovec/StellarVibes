@@ -27,6 +27,34 @@ Stellar Vibes is a decentralized messaging application built on the Stellar netw
 3. **Select Network**: Ensure your wallet is connected to the Stellar Testnet for testing.
 4. **Send a Vibe**: Enter a recipient's public key (starting with `G...`), select a vibe, add a note, and hit send!
 
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/burakovec/StellarVibes.git
+```
+
+Go to the project directory
+
+```bash
+  cd stellar-vibes
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
 ## How it Works
 
 Messages are sent as **Stellar Payment Operations** with a minimum amount (0.0000001 XLM). The actual message content (the vibe ID and note) is stored in the transaction **Memo** field.
