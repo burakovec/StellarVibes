@@ -1,0 +1,5 @@
+{
+  "name": "Stellar Messenger",
+  "description": "A decentralized messenger application built on the Stellar network, connecting via Freighter wallet.",
+  "requestFramePermissions": []
+}
